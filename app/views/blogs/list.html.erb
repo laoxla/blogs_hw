@@ -1,0 +1,15 @@
+<h1>blogs</h1>
+
+<%= link_to new_blog_path do %>
+  <i class="fa fa-plus"></i>Add New Blog
+<% end %>
+
+<div class="blogs">
+  <% @blogs.each do |blog| %>
+  <%= link_to"blogs/#{blog.id}" do %>
+     <h1><%= blog.title %></h1>
+     <% end %>
+    <p> <class= "body"><%= blog.body %> </p>
+      <% end %>
+
+</div>

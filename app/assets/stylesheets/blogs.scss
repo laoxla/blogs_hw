@@ -1,0 +1,64 @@
+// Place all the styles related to the blogs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#wrapper {
+  width: 900px;
+}
+
+.blogs {
+
+
+}
+.blog {
+  margin: 20px;
+
+  }
+
+
+label {
+  width: 150px;
+  display: inline-block;
+  margin-top: 2em;
+  text-align: right;
+}
+input[type='text'] {
+  padding: 5px;
+  width: 500px;
+}
+input[type='submit']{
+  margin-left: 150px;
+  margin-top: 2em;
+  padding: 15px 35px;
+  border: 0;
+  background: green;
+  font-size: 1.5e,;
+  color: white;
+  border-radius: 5px;
+}
+input[type='delete']{
+  margin-left: 150px;
+  margin-top: 2em;
+  padding: 15px 35px;
+  border: 0;
+  background: green;
+  font-size: 1.5e,;
+  color: white;
+  border-radius: 5px;
+}
+
+
+textarea {
+  margin-top: 5px;
+ width: 500px;
+ height: 250px;
+
+}
+
+.field_with_errors {
+  input {
+    border: 2px solid red;
+  }
+  display: inline-block;
+}
